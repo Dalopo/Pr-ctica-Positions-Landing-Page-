@@ -1,0 +1,92 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+  overflow-x: hidden;
+}
+
+.bordered-container{
+  border: 1px dashed #9ad79b
+}
+
+/* Estilos para el encabezado */
+h1 {
+  position: relative;
+  top: -1px;
+  padding: 10px;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  position: relative;
+  top: 20px;
+  padding: 20px;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  position:relative;
+  left: 1340px;
+  top: 40px;
+  width: 150px;
+  padding: 20px 5px;
+  list-style-position: inside;
+}
+
+h3 {
+  position: relative;
+  left: 22px;
+}
+
+/* Estilos para las características */
+.features {
+  position:relative;
+  top: 65px;
+  padding: 30px;
+}
+
+.feature {
+  position: relative;
+  left: 650px;
+}
+
+span {
+  position: relative;
+  left: 110px;
+}
+
+.feature > button {
+  position: relative;
+  left:95px;
+
+}
+
+h2 {
+  position: relative;
+  left: 690px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  position: relative;
+  top: 300px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+footer > p {
+  position: relative;
+  left: 700px;
+}
