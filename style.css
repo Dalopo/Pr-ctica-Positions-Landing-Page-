@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -14,79 +13,69 @@ body {
   min-height: 100vh;
   background-color: #000000;
   color: #9ad79b;
-  overflow-x: hidden;
 }
 
-.bordered-container{
-  border: 1px dashed #9ad79b
+.bordered-container {
+  border: 1px dashed #9ad79b;
+}
+
+/* Estilo para el encabezado */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
 }
 
 /* Estilos para el encabezado */
 h1 {
-  position: relative;
-  top: -1px;
   padding: 10px;
+}
+
+main {
+  margin-top: 70px;
 }
 
 /* Estilos para el contenido principal */
 .content {
   position: relative;
-  top: 20px;
+  top: 15px;
   padding: 20px;
+  margin: 0 auto;
 }
 
 /* Estilos para la barra lateral */
 .sidebar {
-  position:relative;
-  left: 1340px;
-  top: 40px;
+  position: fixed;
+  top: 230px;
+  right: 20px;
   width: 150px;
   padding: 20px 5px;
   list-style-position: inside;
 }
 
 h3 {
-  position: relative;
-  left: 22px;
+  margin-left: 22px;
 }
 
 /* Estilos para las características */
 .features {
-  position:relative;
-  top: 65px;
+  position: relative;
+  top: 260px;
   padding: 30px;
-}
-
-.feature {
-  position: relative;
-  left: 650px;
-}
-
-span {
-  position: relative;
-  left: 110px;
-}
-
-.feature > button {
-  position: relative;
-  left:95px;
-
-}
-
-h2 {
-  position: relative;
-  left: 690px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Estilos para el pie de página */
 footer {
-  position: relative;
-  top: 300px;
+  position: absolute;
+  bottom: -300px ;
+  width: 100%;
   padding: 15px;
-  margin-bottom: 10px;
-}
-
-footer > p {
-  position: relative;
-  left: 700px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #9ad79b;
+  text-align: center;
+  z-index: 1000;
 }
